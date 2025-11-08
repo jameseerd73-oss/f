@@ -1,10 +1,3 @@
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local humanoid = character:WaitForChild("Humanoid", 10)
-
-if not humanoid then
-    print("No Humanoid Found... Are you Spawned In?")
-else
     print("Humanoid Check Passed, Continuing...")
     local function adoniscries()
         pcall(function()
